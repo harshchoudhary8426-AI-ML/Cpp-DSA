@@ -97,15 +97,3 @@ int main()
     return 0;
 }
 
-
-// WORKING OF THE CODE:
-/*
- we created struct ListNode which contains two members data and next pointer.
- where data =  value of the node and next = pointer to the next node.
-We created a function insertNodeAtEnd which takes head pointer and value as input and returns the
-    updated head pointer after inserting the new node at the end of the linked list.
-    then we created a function deleteNodeAtEnd which takes head pointer as input and returns the updated head pointer after deleting the last node of the linked list.
-    then we created a function displayLinkedList which takes head pointer as input and displays the linked list.
-    then we created a function insertNodeAtStart which takes head pointer and value as input and returns the updated head pointer after inserting the new node at the start of the linked list.
-    then we created a function deleteNodeAtStart which takes head pointer as input and returns the updated head pointer after deleting the first node of the linked list.
-*/
